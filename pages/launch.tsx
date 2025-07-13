@@ -1,17 +1,18 @@
 import Image from 'next/image';
-import bullLogo from '../public/bull-logo.png'; // Ensure this path resolves during build
+src="/bull-logo.png" ; // Ensure this path resolves during build
 
 export default function LaunchPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white text-center px-4">
       <div className="animate-fade-in">
         <Image
-          src={bullLogo}
-          alt="Felena Theory Logo"
-          width={120}
-          height={120}
-          className="mb-6"
-        />
+          src="/bull-logo.png"
+  alt="Felena Theory Logo"
+  width={120}
+  height={120}
+  className="mb-6"
+/>
+        /
         <h1 className="text-3xl md:text-5xl font-bold text-green-500 drop-shadow-md">
           Felena Theory Official Launch
         </h1>
